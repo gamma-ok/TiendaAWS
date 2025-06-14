@@ -8,10 +8,10 @@
 		<version>3.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>pe.com.tienditaaws</groupId>
-	<artifactId>TienditaAWS</artifactId>
+	<groupId>pe.com.tiendaaws</groupId>
+	<artifactId>TiendaAWS</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>TienditaAWS</name>
+	<name>TiendaAWS</name>
 	<description>Proyecto con conexion a BD en AWS</description>
 	<url/>
 	<licenses>
