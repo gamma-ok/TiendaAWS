@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TienditaAwsApplication {
+public class TiendaAwsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TienditaAwsApplication.class, args);
+		SpringApplication.run(TiendaAwsApplication.class, args);
 	}
 
 }
