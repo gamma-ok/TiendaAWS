@@ -1,0 +1,2098 @@
+{
+	"info": {
+		"_postman_id": "a3477eba-606f-4cf9-9095-4f9210600b1c",
+		"name": "TiendaBack",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35036558"
+	},
+	"item": [
+		{
+			"name": "categoria",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/categoria",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"categoria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/categoria/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"categoria",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/categoria/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"categoria",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/categoria/name/Televisores",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"categoria",
+								"name",
+								"Televisores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Dormitorios\",\r\n    \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/categoria",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"categoria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": 7,\r\n    \"nombre\": \"Muebles y Dormitorios\",\r\n    \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/categoria/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"categoria",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/categoria/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"categoria",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/categoria/enable/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"categoria",
+								"enable",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "marca",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/marca",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"marca"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/marca/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"marca",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/marca/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"marca",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/marca/name/LG",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"marca",
+								"name",
+								"LG"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Samsung\",\r\n    \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/marca",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"marca"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": 7,\r\n    \"nombre\": \"Samsung y Apple\",\r\n    \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/marca/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"marca",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/marca/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"marca",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/marca/enable/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"marca",
+								"enable",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "distrito",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/distrito",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"distrito"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/distrito/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"distrito",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/distrito/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"distrito",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/distrito/name/Lima",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"distrito",
+								"name",
+								"Lima"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Independencia\",\r\n    \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/distrito",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"distrito"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": 6,\r\n    \"nombre\": \"Barranco\",\r\n    \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/distrito/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"distrito",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/distrito/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"distrito",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/distrito/enable/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"distrito",
+								"enable",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "rol",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/rol",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"rol"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/rol/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"rol",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/rol/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"rol",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/rol/name/administrador",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"rol",
+								"name",
+								"administrador"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Tester\",\r\n    \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/rol",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"rol"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": 4,\r\n    \"nombre\": \"Analista\",\r\n    \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/rol/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"rol",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/rol/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"rol",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/rol/enable/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"rol",
+								"enable",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "cliente",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/cliente",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/cliente/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"cliente",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/cliente/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"cliente",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/cliente/name/Jose%20Daniel",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"cliente",
+								"name",
+								"Jose%20Daniel"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Santiago\",\r\n    \"apellidoPaterno\": \"Gamarra\",\r\n    \"apellidoMaterno\": \"Sanchez\",\r\n    \"documento\": \"76543210\",\r\n    \"fecha\": \"2025-06-14\",\r\n    \"direccion\": \"Psj. Las Fresas 123\",\r\n    \"telefono\": \"7654321\",\r\n    \"celular\": \"987654321\",\r\n    \"correo\": \"santiago2604@gmail.com\",\r\n    \"estado\": true,\r\n    \"distrito\": {\r\n        \"codigo\": 1\r\n    },\r\n    \"sexo\": {\r\n        \"codigo\": 1\r\n    },\r\n    \"tipodocumento\": {\r\n        \"codigo\": 1\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/cliente",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": 4,\r\n    \"nombre\": \"Sebastian\",\r\n    \"apellidoPaterno\": \"Agama\",\r\n    \"apellidoMaterno\": \"Verdes\",\r\n    \"documento\": \"75123648\",\r\n    \"fecha\": \"2025-02-15\",\r\n    \"direccion\": \"Psj. Los Peras 159\",\r\n    \"telefono\": \"7513456\",\r\n    \"celular\": \"923654301\",\r\n    \"correo\": \"sebas123jw@gmail.com\",\r\n    \"estado\": true,\r\n    \"distrito\": {\r\n        \"codigo\": 2\r\n    },\r\n    \"sexo\": {\r\n        \"codigo\": 2\r\n    },\r\n    \"tipodocumento\": {\r\n        \"codigo\": 2\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/cliente/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"cliente",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/cliente/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"cliente",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/cliente/enable/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"cliente",
+								"enable",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "tipoDocumento",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/tipodocumento",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"tipodocumento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/tipodocumento/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"tipodocumento",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/tipodocumento/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"tipodocumento",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/tipodocumento/name/DNI",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"tipodocumento",
+								"name",
+								"DNI"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Cédula de Identidad\",\r\n    \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/tipodocumento",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"tipodocumento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": 5,\r\n    \"nombre\": \"Acta de Nacimiento\",\r\n    \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/tipodocumento/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"tipodocumento",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/tipodocumento/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"tipodocumento",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/tipodocumento/enable/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"tipodocumento",
+								"enable",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ticketPedido",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/ticketpedido",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"ticketpedido"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/ticketpedido/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"ticketpedido",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/ticketpedido/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"ticketpedido",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findByFecha",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/ticketpedido/fecha/2025-07-03",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"ticketpedido",
+								"fecha",
+								"2025-07-03"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fecha\": \"2025-06-30\",\r\n    \"estado\": true,\r\n    \"cliente\": {\r\n        \"codigo\": 1\r\n    },\r\n    \"empleado\": {\r\n        \"codigo\": 1\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/ticketpedido",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"ticketpedido"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"numero\": 4,\r\n    \"fecha\": \"2025-05-28\",\r\n    \"estado\": true,\r\n    \"cliente\": {\r\n        \"codigo\": 2\r\n    },\r\n    \"empleado\": {\r\n        \"codigo\": 2\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/ticketpedido/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"ticketpedido",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/ticketpedido/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"ticketpedido",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/ticketpedido/enable/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"ticketpedido",
+								"enable",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "sexo",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/sexo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"sexo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/sexo/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"sexo",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/sexo/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"sexo",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/sexo/name/Masculino",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"sexo",
+								"name",
+								"Masculino"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Pansexual\",\r\n    \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/sexo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"sexo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": 5,\r\n    \"nombre\": \"Intersexual\",\r\n    \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/sexo/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"sexo",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/sexo/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"sexo",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/sexo/enable/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"sexo",
+								"enable",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "empleado",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/empleado",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"empleado"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/empleado/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"empleado",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/empleado/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"empleado",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/empleado/name/Mario%20Antonio",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"empleado",
+								"name",
+								"Mario%20Antonio"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Roberto Carlos\",\r\n    \"apellidoPaterno\": \"Mateo\",\r\n    \"apellidoMaterno\": \"Quincho\",\r\n    \"dni\": \"74125630\",\r\n    \"fecha\": \"2004-07-16\",\r\n    \"direccion\": \"Psj. Los Uvas 165\",\r\n    \"telefono\": \"4562781\",\r\n    \"celular\": \"987321654\",\r\n    \"correo\": \"mateomasna145@gmail.com\",\r\n    \"sexo\": \"Masculino\",\r\n    \"usuario\": \"mate01\",\r\n    \"clave\": \"123456\",\r\n    \"estado\": true,\r\n    \"distrito\": {\r\n        \"codigo\": 1\r\n    },\r\n    \"rol\": {\r\n        \"codigo\": 1\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/empleado",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"empleado"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": 3,\r\n    \"nombre\": \"Nixon Palomo\",\r\n    \"apellidoPaterno\": \"Rojas\",\r\n    \"apellidoMaterno\": \"Quispe\",\r\n    \"dni\": \"7321456\",\r\n    \"fecha\": \"2005-03-09\",\r\n    \"direccion\": \"Psj. Las Bananas 215\",\r\n    \"telefono\": \"4210257\",\r\n    \"celular\": \"987456321\",\r\n    \"correo\": \"rojitasnix@gmail.com\",\r\n    \"sexo\": \"Masculino\",\r\n    \"usuario\": \"Nixon26\",\r\n    \"clave\": \"159753\",\r\n    \"estado\": true,\r\n    \"distrito\": {\r\n        \"codigo\": 2\r\n    },\r\n    \"rol\": {\r\n        \"codigo\": 2\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/empleado/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"empleado",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/empleado/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"empleado",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/empleado/enable/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"empleado",
+								"enable",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "producto",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/producto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"producto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/producto/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"producto",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/producto/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"producto",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/producto/name/Smart%20TV%2040%20pulgadas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"producto",
+								"name",
+								"Smart%20TV%2040%20pulgadas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Sony K-55S30 – 55\",\r\n    \"descripcion\": \"Smart TV 4K con Google TV y HDR.\",\r\n    \"precio\": 2899.99,\r\n    \"cantidad\": 1,\r\n    \"estado\": true,\r\n    \"marca\": {\r\n        \"codigo\": 2\r\n    },\r\n    \"categoria\": {\r\n        \"codigo\": 1\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/producto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"producto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": 6,\r\n    \"nombre\": \"Sony K-55S30 – 55\",\r\n    \"descripcion\": \"Smart TV 4K con Google TV y HDR para una experiencia visual envolvente.\",\r\n    \"precio\": 4854.90,\r\n    \"cantidad\": 3,\r\n    \"estado\": true,\r\n    \"marca\": {\r\n        \"codigo\": 2,\r\n        \"nombre\": \"Sony\",\r\n        \"estado\": true\r\n    },\r\n    \"categoria\": {\r\n        \"codigo\": 1,\r\n        \"nombre\": \"Televisores\",\r\n        \"estado\": true\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/producto/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"producto",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/producto/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"producto",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/producto/enable/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"producto",
+								"enable",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "detalleTicketPedido",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/detalleticketpedido",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"detalleticketpedido"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/detalleticketpedido/custom",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"detalleticketpedido",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/detalleticketpedido/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"detalleticketpedido",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"ticketpedido\": { \r\n    \"numero\": 1 \r\n    },\r\n  \"producto\": { \r\n    \"codigo\": 1\r\n    },\r\n  \"cantidad\": 3,\r\n  \"precio\": 160.99,\r\n  \"estado\": true\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/detalleticketpedido",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"detalleticketpedido"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"codigo\": 6,\r\n  \"ticketpedido\": {\r\n    \"numero\": 2\r\n  },\r\n  \"producto\": {\r\n    \"codigo\": 2\r\n  },\r\n  \"cantidad\": 8,\r\n  \"precio\": 620.40,\r\n  \"estado\": true\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8898/tienda/detalleticketpedido/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"detalleticketpedido",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/detalleticketpedido/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"detalleticketpedido",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8898/tienda/detalleticketpedido/enable/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8898",
+							"path": [
+								"tienda",
+								"detalleticketpedido",
+								"enable",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

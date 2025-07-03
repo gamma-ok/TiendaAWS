@@ -8,11 +8,11 @@
 		<version>3.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>pe.com.tienditaaws</groupId>
-	<artifactId>TienditaAWS</artifactId>
+	<groupId>pe.com.tienda</groupId>
+	<artifactId>TiendaBack</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>TienditaAWS</name>
-	<description>Proyecto con conexion a BD en AWS</description>
+	<name>TiendaBack</name>
+	<description>Proyecto con conexión a base de datos</description>
 	<url/>
 	<licenses>
 		<license/>
