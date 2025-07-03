@@ -1,7 +1,6 @@
 package pe.com.tienditaaws.entity;
 
 import java.io.Serializable;
-import java.time.LocalDate;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -19,27 +18,30 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Entity(name="TicketPedidoEntity")
-@Table(name="ticketpedido")
-public class TicketPedidoEntity implements Serializable{
+@Entity(name="DetalleTicketPedidoEntity")
+@Table(name="detalleticketpedido")
+public class DetalleTicketPedidoEntity implements Serializable{
 	private static final long serialVersionUID = 1L;
+	
 	@Id
-	@Column(name="nrotic")
+	@Column(name="nrodettic")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long numero;
+	private long codigo;
 	
-	@Column(name="fectic",nullable = false)
-	private LocalDate fecha;
+	@ManyToOne
+	@JoinColumn(name="nrotic",nullable = false)
+	private TicketPedidoEntity ticketpedido;
 	
-	@Column(name="esttic",nullable = false)
+	@ManyToOne
+	@JoinColumn(name="codpro",nullable = false)
+	private ProductoEntity producto;
+
+	@Column(name="cantic",nullable = false)
+	private int cantidad;
+	
+	@Column(name="pretic",nullable = false)
+	private double precio;
+	
+	@Column(name="estdettick",nullable = false)
 	private boolean estado;
-	
-	@ManyToOne
-	@JoinColumn(name="codcli",nullable = false)
-	private ClienteEntity cliente;
-	
-	@ManyToOne
-	@JoinColumn(name="codemp",nullable = false)
-	private EmpleadoEntity empleado;
-	
 }

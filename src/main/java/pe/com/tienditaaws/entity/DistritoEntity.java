@@ -26,7 +26,7 @@ public class DistritoEntity implements Serializable {
 	private long codigo;
 	@Column(name = "nomdis",length = 30,nullable = false)
 	private String nombre;
-	@Column(name="estcat",nullable = false)
+	@Column(name="estdis",nullable = false)
 	private boolean estado;
 	
 }

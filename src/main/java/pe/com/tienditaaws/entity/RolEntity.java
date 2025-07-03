@@ -16,17 +16,17 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor //metodo constructor con parametros
 @NoArgsConstructor //metodo constructor sin parametros
 @Builder //clase constructora
-@Entity(name="CategoriaEntity")// que sea una entidad
-@Table(name="categoria") //relacionarlo con la tabla
-public class CategoriaEntity implements Serializable {
+@Entity(name="RolEntity")// que sea una entidad
+@Table(name="rol") //relacionarlo con la tabla
+public class RolEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Id //clave primaria
-	@Column(name="codcat")//relacion con la columna
+	@Column(name="codrol")//relacion con la columna
 	@GeneratedValue(strategy = GenerationType.IDENTITY) //autoincremento
 	private long codigo;
-	@Column(name = "nomcat",length = 40,nullable = false)
+	@Column(name = "nomrol",length = 30,nullable = false)
 	private String nombre;
-	@Column(name="estcat",nullable = false)
+	@Column(name="estrol",nullable = false)
 	private boolean estado;
 	
 }
